@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb489234-39d4-408c-b1f5-b6060c2697f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Get200.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Get200.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Get200.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Get200.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,75 +26,56 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="13" />
-          <entry key="java" value="13" />
+          <entry key="java" value="27" />
           <entry key="md" value="4" />
-          <entry key="xml" value="4" />
+          <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="13" />
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="27" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="XML" value="4" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3217" />
+          <entry key="java" value="3790" />
           <entry key="md" value="2093" />
-          <entry key="xml" value="9" />
+          <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3217" />
+          <entry key="JAVA" value="3790" />
           <entry key="PLAIN_TEXT" value="2093" />
-          <entry key="XML" value="9" />
+          <entry key="XML" value="11" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ResponseUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ResponseHeaders.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BodyTestWithSimpleMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="98" column="105" lean-forward="true" selection-start-line="98" selection-start-column="105" selection-end-line="98" selection-end-column="105" />
+            <state relative-caret-position="-336">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1395#1396#0" expanded="true" />
+                <element signature="e#1437#1438#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entities/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="120">
+              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -118,14 +102,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/BaseClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/Get404.java" />
         <option value="$PROJECT_DIR$/src/test/java/Get401.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Get200.java" />
         <option value="$PROJECT_DIR$/src/test/java/ResponseHeaders.java" />
         <option value="$PROJECT_DIR$/src/main/java/ResponseUtils.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/Get200.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BodyTestWithSimpleMap.java" />
       </list>
     </option>
   </component>
@@ -173,6 +159,13 @@
               <item name="WebApiAutomtion" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebApiAutomtion" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebApiAutomtion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApiAutomtion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -182,6 +175,10 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WebApiAutomtion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -189,7 +186,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550246626663" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550250805072" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -204,32 +201,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ResponseHeaders">
-    <configuration name="Get200" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.BodyTestWithSimpleMap.returnsCorrectCompany">
+    <configuration name="BodyTestWithSimpleMap" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomtion" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Get200" />
+      <option name="MAIN_CLASS_NAME" value="BodyTestWithSimpleMap" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get401" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BodyTestWithSimpleMap.returnsCorrectCompany" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomtion" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Get401" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Get401.userReturns401" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="WebApiAutomtion" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Get401" />
-      <option name="METHOD_NAME" value="userReturns401" />
+      <option name="MAIN_CLASS_NAME" value="BodyTestWithSimpleMap" />
+      <option name="METHOD_NAME" value="returnsCorrectCompany" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -237,20 +224,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get404" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BodyTestWithSimpleMap.returnsCorrectEmail" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomtion" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Get404" />
+      <option name="MAIN_CLASS_NAME" value="BodyTestWithSimpleMap" />
+      <option name="METHOD_NAME" value="returnsCorrectEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResponseHeaders" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BodyTestWithSimpleMap.returnsCorrectId" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomtion" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ResponseHeaders" />
+      <option name="MAIN_CLASS_NAME" value="BodyTestWithSimpleMap" />
+      <option name="METHOD_NAME" value="returnsCorrectId" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BodyTestWithSimpleMap.returnsCorrectLogin" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebApiAutomtion" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BodyTestWithSimpleMap" />
+      <option name="METHOD_NAME" value="returnsCorrectLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -258,19 +261,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.Get200" />
-      <item itemvalue="TestNG.Get401" />
-      <item itemvalue="TestNG.Get404" />
-      <item itemvalue="TestNG.Get401.userReturns401" />
-      <item itemvalue="TestNG.ResponseHeaders" />
+      <item itemvalue="TestNG.BodyTestWithSimpleMap.returnsCorrectLogin" />
+      <item itemvalue="TestNG.BodyTestWithSimpleMap.returnsCorrectId" />
+      <item itemvalue="TestNG.BodyTestWithSimpleMap" />
+      <item itemvalue="TestNG.BodyTestWithSimpleMap.returnsCorrectEmail" />
+      <item itemvalue="TestNG.BodyTestWithSimpleMap.returnsCorrectCompany" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ResponseHeaders" />
-        <item itemvalue="TestNG.Get200" />
-        <item itemvalue="TestNG.Get401" />
-        <item itemvalue="TestNG.Get401.userReturns401" />
-        <item itemvalue="TestNG.Get404" />
+        <item itemvalue="TestNG.BodyTestWithSimpleMap.returnsCorrectCompany" />
+        <item itemvalue="TestNG.BodyTestWithSimpleMap.returnsCorrectEmail" />
+        <item itemvalue="TestNG.BodyTestWithSimpleMap" />
+        <item itemvalue="TestNG.BodyTestWithSimpleMap.returnsCorrectId" />
+        <item itemvalue="TestNG.BodyTestWithSimpleMap.returnsCorrectLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -288,35 +291,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ResponseHeaders - 2019.02.15 at 10h 52m 17s.xml">
-      <configuration name="ResponseHeaders" configurationId="TestNG" />
+    <history-entry file="BodyTestWithSimpleMap_returnsCorrectLogin - 2019.02.15 at 16h 54m 02s.xml">
+      <configuration name="BodyTestWithSimpleMap.returnsCorrectLogin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ResponseHeaders - 2019.02.15 at 10h 52m 34s.xml">
-      <configuration name="ResponseHeaders" configurationId="TestNG" />
+    <history-entry file="BodyTestWithSimpleMap_returnsCorrectId - 2019.02.15 at 17h 01m 57s.xml">
+      <configuration name="BodyTestWithSimpleMap.returnsCorrectId" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ResponseHeaders - 2019.02.15 at 11h 20m 59s.xml">
-      <configuration name="ResponseHeaders" configurationId="TestNG" />
+    <history-entry file="BodyTestWithSimpleMap - 2019.02.15 at 17h 02m 21s.xml">
+      <configuration name="BodyTestWithSimpleMap" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ResponseHeaders - 2019.02.15 at 11h 21m 58s.xml">
-      <configuration name="ResponseHeaders" configurationId="TestNG" />
+    <history-entry file="BodyTestWithSimpleMap_returnsCorrectEmail - 2019.02.15 at 17h 06m 26s.xml">
+      <configuration name="BodyTestWithSimpleMap.returnsCorrectEmail" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ResponseHeaders - 2019.02.15 at 11h 22m 16s.xml">
-      <configuration name="ResponseHeaders" configurationId="TestNG" />
+    <history-entry file="BodyTestWithSimpleMap_returnsCorrectEmail - 2019.02.15 at 17h 08m 39s.xml">
+      <configuration name="BodyTestWithSimpleMap.returnsCorrectEmail" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ResponseHeaders - 2019.02.15 at 11h 26m 07s.xml">
-      <configuration name="ResponseHeaders" configurationId="TestNG" />
+    <history-entry file="BodyTestWithSimpleMap_returnsCorrectEmail - 2019.02.15 at 17h 09m 16s.xml">
+      <configuration name="BodyTestWithSimpleMap.returnsCorrectEmail" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ResponseHeaders - 2019.02.15 at 11h 26m 41s.xml">
-      <configuration name="ResponseHeaders" configurationId="TestNG" />
+    <history-entry file="BodyTestWithSimpleMap_returnsCorrectEmail - 2019.02.15 at 17h 10m 01s.xml">
+      <configuration name="BodyTestWithSimpleMap.returnsCorrectEmail" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ResponseHeaders - 2019.02.15 at 13h 22m 47s.xml">
-      <configuration name="ResponseHeaders" configurationId="TestNG" />
+    <history-entry file="BodyTestWithSimpleMap_returnsCorrectCompany - 2019.02.15 at 17h 12m 05s.xml">
+      <configuration name="BodyTestWithSimpleMap.returnsCorrectCompany" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ResponseHeaders - 2019.02.15 at 13h 52m 55s.xml">
-      <configuration name="ResponseHeaders" configurationId="TestNG" />
+    <history-entry file="BodyTestWithSimpleMap_returnsCorrectCompany - 2019.02.15 at 17h 12m 18s.xml">
+      <configuration name="BodyTestWithSimpleMap.returnsCorrectCompany" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ResponseHeaders - 2019.02.15 at 13h 54m 22s.xml">
-      <configuration name="ResponseHeaders" configurationId="TestNG" />
+    <history-entry file="BodyTestWithSimpleMap_returnsCorrectCompany - 2019.02.15 at 17h 12m 37s.xml">
+      <configuration name="BodyTestWithSimpleMap.returnsCorrectCompany" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -328,7 +331,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1987076" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.226979" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" weight="0.32944608" />
@@ -336,8 +339,8 @@
       <window_info anchor="bottom" id="Messages" weight="0.24635568" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4504373" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28425655" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52478135" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5816327" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -399,34 +402,10 @@
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Get200.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Supplier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Get401.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -437,13 +416,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Get404.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="368">
+          <caret line="98" column="105" lean-forward="true" selection-start-line="98" selection-start-column="105" selection-end-line="98" selection-end-column="105" />
         </state>
       </provider>
     </entry>
@@ -457,9 +433,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Get401.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Get200.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="49" column="39" lean-forward="true" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Get404.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ResponseHeaders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
+        <state relative-caret-position="1242">
           <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -469,15 +475,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="459">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="98" column="105" lean-forward="true" selection-start-line="98" selection-start-column="105" selection-end-line="98" selection-end-column="105" />
+        <state relative-caret-position="120">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BodyTestWithSimpleMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

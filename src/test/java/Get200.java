@@ -47,7 +47,7 @@ public class Get200 extends BaseClass {
 
         HttpGet get = new HttpGet(BASE_ENDPOINT + "/rate_limit");
 
-        HttpResponse response = client.execute(get);
+        response = client.execute(get);
 
         int getStatusCode = response.getStatusLine().getStatusCode();
 
@@ -60,7 +60,7 @@ public class Get200 extends BaseClass {
 
         HttpGet get = new HttpGet(BASE_ENDPOINT + "/search/repositories?q=java");
 
-        HttpResponse response = client.execute(get);
+        response = client.execute(get);
 
         int getStatusCode = response.getStatusLine().getStatusCode();
 
