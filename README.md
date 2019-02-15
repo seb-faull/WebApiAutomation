@@ -1,4 +1,4 @@
-# WebApiAutomation
+# WebApiAutomation (Component Testing)
 
 Make sure you have the latest version of Java Installed.
 
