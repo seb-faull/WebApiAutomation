@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb489234-39d4-408c-b1f5-b6060c2697f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Get200.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Get200.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Get401.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Get401.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Get404.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Get404.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,26 +25,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="13" />
-          <entry key="java" value="5" />
+          <entry key="java" value="8" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="13" />
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="8" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1377" />
+          <entry key="java" value="1730" />
           <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1377" />
+          <entry key="JAVA" value="1730" />
           <entry key="XML" value="9" />
         </counts>
       </usages-collector>
@@ -61,10 +62,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BaseClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Get200.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="-77">
+              <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#619#620#0" expanded="true" />
@@ -74,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Get401.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+            <state relative-caret-position="414">
+              <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#211#212#0" expanded="true" />
@@ -91,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Get404.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="523">
+              <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#211#212#0" expanded="true" />
@@ -102,11 +112,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BaseClass.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ResponseHeaders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+            <state relative-caret-position="459">
+              <caret line="52" column="2" lean-forward="true" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,10 +149,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Get404.java" />
         <option value="$PROJECT_DIR$/src/test/java/BaseClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Get200.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Get404.java" />
         <option value="$PROJECT_DIR$/src/test/java/Get401.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Get200.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ResponseHeaders.java" />
       </list>
     </option>
   </component>
@@ -148,12 +164,14 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="302" />
     <option name="width" value="1280" />
     <option name="height" value="778" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -179,6 +197,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WebApiAutomtion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebApiAutomtion" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -186,7 +211,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550164886939" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550228349435" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
@@ -201,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Get401">
+  <component name="RunManager" selected="TestNG.ResponseHeaders">
     <configuration name="Get200" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomtion" />
       <option name="PACKAGE_NAME" value="" />
@@ -244,12 +269,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Get404.nonExistingUrlReturns404" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ResponseHeaders" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="WebApiAutomtion" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Get404" />
-      <option name="METHOD_NAME" value="nonExistingUrlReturns404" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="ResponseHeaders" />
       <properties />
       <listeners />
       <method v="2">
@@ -258,18 +281,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Get200" />
-      <item itemvalue="TestNG.Get404.nonExistingUrlReturns404" />
       <item itemvalue="TestNG.Get401" />
       <item itemvalue="TestNG.Get404" />
       <item itemvalue="TestNG.Get401.userReturns401" />
+      <item itemvalue="TestNG.ResponseHeaders" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ResponseHeaders" />
+        <item itemvalue="TestNG.Get200" />
         <item itemvalue="TestNG.Get401" />
         <item itemvalue="TestNG.Get401.userReturns401" />
         <item itemvalue="TestNG.Get404" />
-        <item itemvalue="TestNG.Get200" />
-        <item itemvalue="TestNG.Get404.nonExistingUrlReturns404" />
       </list>
     </recent_temporary>
   </component>
@@ -287,27 +310,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Get401 - 2019.02.14 at 16h 49m 37s.xml">
-      <configuration name="Get401" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Get200 - 2019.02.14 at 16h 54m 21s.xml">
-      <configuration name="Get200" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Get401 - 2019.02.14 at 16h 54m 33s.xml">
-      <configuration name="Get401" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Get404 - 2019.02.14 at 16h 54m 38s.xml">
-      <configuration name="Get404" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Get200 - 2019.02.14 at 16h 55m 25s.xml">
-      <configuration name="Get200" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Get404 - 2019.02.14 at 16h 55m 44s.xml">
-      <configuration name="Get404" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Get401 - 2019.02.14 at 16h 55m 56s.xml">
-      <configuration name="Get401" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Get200 - 2019.02.14 at 17h 02m 11s.xml">
       <configuration name="Get200" configurationId="TestNG" />
     </history-entry>
@@ -317,9 +319,30 @@
     <history-entry file="Get404 - 2019.02.14 at 17h 02m 34s.xml">
       <configuration name="Get404" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Get401_userReturns401 - 2019.02.14 at 17h 19m 05s.xml">
+      <configuration name="Get401.userReturns401" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Get401 - 2019.02.14 at 17h 19m 28s.xml">
+      <configuration name="Get401" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Get200 - 2019.02.15 at 10h 38m 30s.xml">
+      <configuration name="Get200" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ResponseHeaders - 2019.02.15 at 10h 45m 34s.xml">
+      <configuration name="ResponseHeaders" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ResponseHeaders - 2019.02.15 at 10h 51m 28s.xml">
+      <configuration name="ResponseHeaders" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ResponseHeaders - 2019.02.15 at 10h 52m 17s.xml">
+      <configuration name="ResponseHeaders" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ResponseHeaders - 2019.02.15 at 10h 52m 34s.xml">
+      <configuration name="ResponseHeaders" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="778" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="778" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -327,7 +350,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1987076" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1987076" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" weight="0.32944608" />
@@ -335,7 +358,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.18950437" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45772594" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4504373" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28425655" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -389,18 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Get404.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -424,10 +435,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Get404.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Get401.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Get200.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="-77">
+          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#619#620#0" expanded="true" />
@@ -436,14 +471,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Get401.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ResponseHeaders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+        <state relative-caret-position="459">
+          <caret line="52" column="2" lean-forward="true" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -43,7 +43,7 @@ public class Get401 extends BaseClass {
 
         HttpGet get = new HttpGet(BASE_ENDPOINT + endpoint);
 
-        HttpResponse response = client.execute(get);
+        response = client.execute(get);
 
         int getStatusCode = response.getStatusLine().getStatusCode();
 
