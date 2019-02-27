@@ -38,7 +38,7 @@ public class BodyTestWithJackson extends BaseClass {
         response = client.execute(get);
 
         // We always want to unmarshall from the response
-        User user = ResponseUtils.unmarshall(response, User.class);
+        User user = ResponseUtils.unmarshallGeneric(response, User.class);
 
         assertEquals(user.getLogin(), "seb-faull");
 
@@ -52,9 +52,22 @@ public class BodyTestWithJackson extends BaseClass {
         response = client.execute(get);
 
         // We always want to unmarshall from the response
-        User user = ResponseUtils.unmarshall(response, User.class);
+        User user = ResponseUtils.unmarshallGeneric(response, User.class);
 
         assertEquals(user.getId(), 11021695);
+
+    }
+
+    @Test
+    public void notFoundMessageIsCorrect() throws IOException {
+
+        HttpGet get = new HttpGet(BASE_ENDPOINT + "/nonexistingendpoint");
+
+        response = client.execute(get);
+
+        NotFound notFoundMessage = ResponseUtils.unmarshallGeneric(response, NotFound.class);
+
+        assertEquals(notFoundMessage.getMessage(), "Not Found");
 
     }
 
