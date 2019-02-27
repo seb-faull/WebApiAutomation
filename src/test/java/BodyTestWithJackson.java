@@ -71,4 +71,18 @@ public class BodyTestWithJackson extends BaseClass {
 
     }
 
+    @Test
+    public void correctRateLimitsAreSet() throws IOException {
+
+        HttpGet get = new HttpGet(BASE_ENDPOINT + "/rate_limit");
+
+        response = client.execute(get);
+
+        RateLimit rateLimits = ResponseUtils.unmarshallGeneric(response, RateLimit.class);
+
+        assertEquals(rateLimits.getCoreLimit(), 60);
+        assertEquals(rateLimits.getSearchLimit(), "10");
+
+    }
+
 }
