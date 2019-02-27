@@ -1,11 +1,13 @@
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import entities.User;
+import org.apache.commons.codec.binary.Base64;
 import org.apache.http.Header;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.util.Arrays;
 import java.util.List;
 
@@ -78,6 +80,14 @@ public class ResponseUtils {
                 .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
                 .readValue(jsonBody, clazz);
 
+    }
+
+    public static String auth() {
+        String auth = Credentials.EMAIL + ":" + Credentials.PASSWORD;
+        byte[] encodedAuth = Base64.encodeBase64(auth.getBytes(Charset.forName("ISO-8859-1")));
+        String authHeader = "Basic " + new String(encodedAuth);
+
+        return authHeader;
     }
 
 }
